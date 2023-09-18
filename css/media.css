@@ -27,7 +27,7 @@
     }
 
     .features__title {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     .features__text {
@@ -49,8 +49,14 @@
         display: block;
     }
 
+    .game__title {
+        margin-bottom: 10px;
+    }
+
     .game__descr-title {
+        margin-bottom: 30px;
         font-size: 32px;
+
     }
 
     .game__inner {
@@ -58,8 +64,17 @@
         gap: 25px;
     }
 
+    .equipment__title {
+        margin-bottom: 30px;
+    }
+
     .equipment__box-title {
+        margin-bottom: 30px;
         font-size: 32px;
+    }
+
+    .accessories__title {
+        margin-bottom: 10px;
     }
 
     .accessories__items {
@@ -68,6 +83,7 @@
     }
 
     .accessories__text {
+        margin-bottom: 30px;
         font-size: 32px;
     }
 
@@ -178,8 +194,17 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .equipment__title {
+        margin-bottom: 10px;
+    }
+
     .equipment__box {
-        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .equipment__box-item:nth-child(3) {
+        order: -1;
     }
 
     .accessories__items {

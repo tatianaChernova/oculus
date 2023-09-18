@@ -97,6 +97,12 @@ body {
   gap: 0 20px;
 }
 
+.menu__link:hover {
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .logo {
   display: flex;
