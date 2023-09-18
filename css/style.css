@@ -580,6 +580,14 @@ body {
   bottom: 15px;
 }
 
+.form__result-message {
+  margin-bottom: 10px;
+  font-size: 13px;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .footer {
   margin-bottom: 44px;
   border-top: 1px solid #CACAD6;

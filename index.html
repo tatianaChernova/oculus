@@ -306,10 +306,11 @@
         <h2 class="contacts__title">Get news and updates</h2>
         <div class="contacts__inner">
           <div class="contacts__form">
-            <form action="" class="form">
-              <input class="form__input" type="text" placeholder="E-mail">
-              <button class="form__btn" type="submit">GO</button>
+            <form action="/signup.php" class="form" id="signUpForm">
+              <input class="form__input" type="text" id="formEmail" placeholder="E-mail">
+              <button class="form__btn" type="submit" id="sendForm">GO</button>
             </form>
+            <div class="form__result-message" id="resultMessage"></div>
             <p class="contacts__text">
               By signing up you agree to receive updates and marketing messages (e.g. email, social, etc.) from Meta
               about
@@ -366,6 +367,8 @@
       </nav>
     </div>
   </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
   <script src="js/main.js"></script>
 </body>
